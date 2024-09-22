@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'BYekan';
+	src: local('BYekan'), url('./BYekan.woff') format('woff');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_29818">Text with this font applied</p> */
+.fontsforweb_fontid_29818 {
+	font-family: 'BYekan' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

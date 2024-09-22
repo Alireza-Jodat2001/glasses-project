@@ -1,0 +1,449 @@
+/* فونت ب یکان */
+@font-face {
+  font-family: "BYekan";
+  src: local("BYekan"), url("./BYekan/BYekan.woff") format("woff");
+}
+
+.fontsforweb_fontid_29818 {
+  font-family: "BYekan" !important;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  background: #f8f8f8;
+  min-height: 100vh;
+}
+
+.header-container {
+  display: flex;
+  width: 100%;
+  padding: 0 160px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: IranYekan;
+  font-size: 18px;
+}
+
+.header-Logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  font-family: IranYekan;
+}
+
+.nav-link li {
+  font-size: 20px;
+}
+
+.glases {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+
+.sunglases-box,
+.prescriptionglasses-box {
+  position: relative;
+}
+
+.sunglases_submenu,
+.prescriptionglasses_submenu {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 30px;
+  right: 0;
+  width: 206px;
+  background-color: #e5e5e5;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.sunglases-box:hover .sunglases_submenu,
+.prescriptionglasses-box:hover .prescriptionglasses_submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.sunglases_submenu a,
+.prescriptionglasses_submenu a {
+  padding: 5px;
+  font-size: 20px;
+  line-height: 2;
+  transition: all 0.2s;
+}
+
+.sunglases_submenu a:hover,
+.prescriptionglasses_submenu a:hover {
+  background-color: #f8f8f8;
+}
+
+.nav-link {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.nav-link a {
+  color: #0e0e0e;
+}
+
+.header-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.header-icons ul {
+  display: flex;
+  font-size: 24px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+  gap: 18px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  font-family: IranYekan;
+  font-size: 16px;
+  background: linear-gradient(to bottom, #0061d4, #00326e);
+}
+
+.section1 p {
+  font-size: 16px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.section2 img {
+  display: flex;
+  width: 100%;
+}
+
+.section3 img {
+  display: flex;
+  width: 100%;
+}
+
+.section4 {
+  display: flex;
+  width: 100%;
+}
+
+.section4-cardbox {
+  gap: 8px;
+  display: flex;
+  margin: 45px 100px;
+}
+
+.carddd {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.carddd img {
+  height: 100%;
+}
+
+.card-info {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  bottom: 0;
+  height: 70px;
+}
+
+.card-info-img img {
+  margin-right: 15px;
+}
+
+.card-info-text {
+  margin-left: 25px;
+  line-height: 24px;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: inter;
+}
+
+.card-info-text h3 {
+  display: flex;
+  justify-content: end;
+  font-size: 20px;
+}
+
+.section5 {
+  width: 100%;
+}
+
+.section5-brandbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin: 30px 100px;
+}
+
+.section6 {
+  display: flex;
+  gap: 7.25%;
+  max-width: 1240px;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.section6-boxright {
+  display: flex;
+  text-align: end;
+  width: 32.66%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section6-boxright-text {
+  width: 224px;
+  height: 53.42px;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.section6-boxright-tittle {
+  font-size: 24.13px;
+  direction: rtl;
+  margin-top: 10px;
+  font-family: BYekan;
+  width: 224px;
+  height: 53.42px;
+}
+
+.section6-boxright-sub {
+  direction: rtl;
+  margin-top: 4px;
+  font-size: 14.54px;
+  font-family: roboto;
+}
+
+.section6-boxleft {
+  display: flex;
+  font-family: byekan;
+  border-radius: 20px;
+  background: #fff;
+  width: 50.32%;
+}
+
+.section6-OMag-left-product-info {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 50%;
+}
+
+.section6-product-tittle {
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.section6-product-sub {
+  font-size: 16px;
+  color: #5c5c5c;
+  margin-bottom: 15px;
+}
+
+.tag {
+  color: #ababab;
+  background: #f8f8f8;
+  font-size: 16px;
+  width: fit-content;
+  padding: 2px 5px;
+  border-radius: 6px;
+  margin-bottom: 5px;
+}
+
+.more_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.date {
+  display: flex;
+  gap: 5px;
+}
+
+.more {
+  width: 95px;
+  height: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  gap: 5px;
+}
+
+.OMag-left {
+  width: 50%;
+  height: 100%;
+  border-radius: 20px 0 0 20px;
+}
+
+.section7 {
+  margin-top: 30px;
+  width: 100%;
+  padding: 45px 100px 45px 100px;
+  text-align: center;
+  font-family: BYekan;
+}
+
+.button-bime {
+  border: none;
+  border-radius: 7px;
+  padding: 9px 17px;
+  background: linear-gradient(to bottom, #3f664b, #2d3b2c);
+  font-family: BYekan;
+  font-size: 24px;
+}
+
+.button-bime a {
+  gap: 8px;
+
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  display: flex;
+  color: #ffffff;
+}
+
+.button-bime img {
+  width: 24px;
+  height: 28px;
+}
+
+.bime-info {
+  margin-top: 50px;
+  font-size: 21px;
+}
+
+.section7-bimebox {
+  margin-top: 50px;
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.section7-bimebox img {
+  margin-top: 15px;
+}
+
+.section8 {
+  width: 100%;
+  background: linear-gradient(to bottom, #3f664b, #2d3b2c);
+  border-radius: 30px 30px 0 0;
+  margin-top: 45px;
+  padding: 65px 100px 40px 100px;
+}
+
+.footer-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-icon-social {
+  display: flex;
+  gap: 10px;
+}
+
+.footer-address {
+  display: flex;
+  font-family: IranYekan;
+  color: #fff;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+
+.footer-location img {
+  width: 17px;
+  height: 24px;
+}
+
+.footer-location {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.footer-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-phone img {
+  width: 21px;
+  height: 21px;
+}
+
+.footer-more {
+  display: flex;
+  font-family: IranYekan;
+  font-size: 16px;
+  gap: 50px;
+  margin-top: 25px;
+  line-height: 45px;
+}
+
+
+
+.footer-list {
+  width: 240px;
+}
+
+.footer-list-item {}
+
+.list-item-link {
+  color: #fff;
+}
+
+.divider-footer {
+  border-bottom: 1.5px solid #fff;
+}
